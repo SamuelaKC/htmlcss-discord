@@ -172,6 +172,13 @@ span.arrow:after {
     text-align: center;
 }
 
+/* inizio footer */
+
+footer {
+    height: 500px;
+}
+
+
 /* codici da cancellare una volta finito il sito */
 
 .container-3 {
@@ -188,5 +195,4 @@ span.arrow:after {
 
 footer {
     background-color: pink;
-    height: 500px;
 }
