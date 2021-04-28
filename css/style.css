@@ -166,6 +166,12 @@ span.arrow:after {
     width: 50%;
 }
 
+/* inizio codice css sezione 4 */
+
+.content-4 {
+    text-align: center;
+}
+
 /* codici da cancellare una volta finito il sito */
 
 .container-3 {
@@ -174,4 +180,13 @@ span.arrow:after {
 
 .container-4 {
     background-color: green;
+}
+
+.container-5 {
+    background-color: blue;
+}
+
+footer {
+    background-color: pink;
+    height: 500px;
 }
