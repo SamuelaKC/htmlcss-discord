@@ -1,3 +1,10 @@
+codice colori 
+background bianco #fff
+background grigi #f6f6f6
+background footer #23272a
+colore hr del footer #4a5882
+colore testo del footer #7289da
+
 /* Da mettere sempre  */
 
 * {
@@ -7,7 +14,7 @@
     font-family: 'Pontano Sans', sans-serif;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -21,6 +28,11 @@
 
 .h1, .h2 {
     font-size: 50px;
+    font-weight: 700;
+}
+
+.h4 {
+    font-size: 30px;
     font-weight: 700;
 }
 
@@ -38,13 +50,14 @@
 [class^="container-"] {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 25px;
+    padding-top: 50px;
     height: 100%;
+    padding-bottom: 50px;
 }
 
-[class^="content-"] {
-    height: 700px;
-}
+/* [class^="content-"] {
+    height: 600px;
+} */
 
 /* inizia codice css per header */
 
@@ -69,7 +82,6 @@ nav.topbar, div#text-1 {
 nav.topbar .logo nav.topbar .login {
     width: 25%;
     height: 100%;
-
 }
 
 nav.topbar .menu{
@@ -83,7 +95,7 @@ nav.topbar .menu li {
 }
 
 li {
-        list-style: none;
+    list-style: none;
 }
 
 .menu {
@@ -92,14 +104,15 @@ li {
 }
 
 .login {
-    color: black;
-    width: 100px;
-    height: 40px;
     background-color: white;
     border-radius: 30px;
-    text-align: center;
-    line-height: 40px;
     margin-left: 15%;
+}
+
+.login li {
+    color: black;
+    font-weight: 700;    
+    display: inline;
 }
 
 /* codice per il testo e i bottoni nell'header */
@@ -157,42 +170,63 @@ span.arrow:after {
 
 /* inizio codice css sezione 2 */
 
+.bg-gray {
+    background-color: #f6f6f6;
+}
+
 
 .image-2 {
-    width: 50%;
+    width: 60%;
 }
 
 .text-3 {
-    width: 50%;
+    width: 40%;
 }
 
 /* inizio codice css sezione 4 */
+
 
 .content-4 {
     text-align: center;
 }
 
+/* .star {
+    text-align: center;
+} */
+
+.h4 {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 531px;
+    height: 49px;
+    margin: 0 auto;
+}
+
+.button-blue{
+    margin-top: 30px;
+    color: white;
+    background-color: #7289da;
+    font: 20px;
+
+}
+
+span.arrow-1:after {
+    content: '\2913';
+    color: white;
+    font-weight: 900;
+    padding-right: 10px;
+}
+
+
 /* inizio footer */
 
 footer {
     height: 500px;
+    background-color: #23272a;
 }
 
 
 /* codici da cancellare una volta finito il sito */
 
-.container-3 {
-    background-color: red;
-}
-
-.container-4 {
-    background-color: green;
-}
-
-.container-5 {
-    background-color: blue;
-}
-
-footer {
-    background-color: pink;
-}
