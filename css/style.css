@@ -200,10 +200,6 @@ span.arrow:after {
 } */
 
 .h4 {
-    background-image: url(../img/stars.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
     width: 531px;
     height: 49px;
     margin: 0 auto;
