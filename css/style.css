@@ -1,9 +1,10 @@
-codice colori 
+/* codice colori 
+backgound pulsante black #23272a
 background bianco #fff
 background grigi #f6f6f6
 background footer #23272a
 colore hr del footer #4a5882
-colore testo del footer #7289da
+colore testo del footer #7289da */
 
 /* Da mettere sempre  */
 
@@ -63,7 +64,7 @@ colore testo del footer #7289da
 
 header {
     background: url(../img/jumbo.png) center center;
-    height: 500px;
+    height: 700px;
     background-size: cover;
 }
 
@@ -79,12 +80,12 @@ nav.topbar, div#text-1 {
     color: white;
 }
 
-nav.topbar .logo nav.topbar .login {
+nav.topbar .logo {
     width: 25%;
     height: 100%;
 }
 
-nav.topbar .menu{
+nav.topbar .menu {
     width: 50%;
     height: 100%;
 }
@@ -107,11 +108,13 @@ li {
     background-color: white;
     border-radius: 30px;
     margin-left: 15%;
+    padding: 1px 10px 1px 10px
 }
 
-.login li {
+.login {
+    font-size: 14px;
     color: black;
-    font-weight: 700;    
+    font-weight: 600;    
     display: inline;
 }
 
@@ -126,14 +129,16 @@ text-align: center;
     display: inline-block;
     text-align: center; 
     line-height: 50px;
-    font-weight: 700; 
+    font-weight: 600; 
     border-radius: 50px;
+    font-size: 20px;
     padding: 1px 25px 1px 25px
 }
 
 .button-white {
     color: black;
     background-color: white;
+    margin-right: 30px;
 }
 
 span.arrow:after {
@@ -146,7 +151,7 @@ span.arrow:after {
 
 .button-black {
     color: white;
-    background-color: black;
+    background-color: #23272a;
 }
 
 #text-1 {
